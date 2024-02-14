@@ -40,14 +40,14 @@ class Player():
 
 
 def redrawWindow(win,player):
-    win.fill((255,255,255))
+    win.fill((0,0,0))
     player.draw(win)
     pygame.display.update()
 
 
 def main():
     run = True
-    p = Player(50,50,100,100,(0,255,0))
+    p = Player(50,50,100,100,(16,224,255))
     clock = pygame.time.Clock()
 
     while run:
